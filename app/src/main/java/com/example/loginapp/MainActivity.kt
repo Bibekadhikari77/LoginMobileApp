@@ -35,3 +35,7 @@ class MainActivity : AppCompatActivity() {
         }
     }
 }
+
+class RegisterActivity {
+
+}
