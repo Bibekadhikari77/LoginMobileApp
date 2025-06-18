@@ -21,10 +21,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContentView(R.layout.activity_main)
-        usernameInput = findViewById(R.id.username_input)
-        passwordInput = findViewById(R.id.password_input)
-        loginButton = findViewById(R.id.login_button)
-        createAccountText = findViewById(R.id.create_account_text)
+
 
         loginButton.setOnClickListener {
             var username = usernameInput.text.toString()
